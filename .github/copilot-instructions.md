@@ -18,6 +18,7 @@ AIndroid is an Android application that provides AI-powered file organization ca
 ### Core Technologies
 - **Language**: Kotlin 1.9.20
 - **Build System**: Gradle 8.2 with Kotlin DSL
+- **Android Gradle Plugin**: 8.1.4
 - **UI Framework**: Jetpack Compose with Material 3
 - **Minimum SDK**: API 24 (Android 7.0 Nougat)
 - **Target SDK**: API 34 (Android 14)
@@ -40,6 +41,12 @@ app/src/main/java/com/example/aindroid/
     ├── Theme.kt
     └── Type.kt
 ```
+
+**Note**: This is the current structure. As the project grows, expect additional directories for:
+- `data/`: Data models, repositories, and data sources
+- `domain/`: Business logic and use cases
+- `ui/`: Screen composables and ViewModels
+- `util/`: Utility functions and helpers
 
 ### Design Patterns
 - **MVVM**: Use ViewModel for business logic, Composables for UI
